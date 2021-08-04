@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "CommonJS",
+    "target": "es6",
+    "lib": ["es7", "dom", "esnext"],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "baseUrl": "./",
+    "rootDir": "./",
+    "typeRoots": ["./node_modules/@types", "./src/shared/types"],
+    "paths": {
+      "@tools/*": [".tools/*"],
+      "@client/*": ["./src/client/*"],
+      "@server/*": ["./src/server/*"],
+      "@shared/*": ["./src/shared/*"],
+      "@components/*": ["./src/client/components/*"],
+      "@constants/*": ["./src/client/constants/*"],
+      "@hooks/*": ["./src/client/hooks/*"],
+      "@styles/*": ["./src/client/styles/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "importsNotUsedAsValues": "preserve",
+    "incremental": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["src", ".tools/**/*.ts"]
+}

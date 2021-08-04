@@ -1,0 +1,30 @@
+@keyframes slideFadeUp {
+  from {
+    opacity: 0;
+    transform: translate(0px, 40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.swiper-slide {
+  width: 100%;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide-active h2 {
+  animation: slideFadeUp 750ms cubic-bezier(0.4, 0, 0.2, 1);
+  animation-delay: 100ms;
+}
+
+.swiper-slide-active p {
+  animation: slideFadeUp 750ms cubic-bezier(0.4, 0, 0.2, 1);
+  animation-delay: 250ms;
+}

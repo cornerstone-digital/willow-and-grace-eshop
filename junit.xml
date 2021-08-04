@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="1.254">
+  <testsuite name="AnnoucementBar" errors="0" failures="0" skipped="0" timestamp="2021-08-04T21:03:54" time="0.836" tests="1">
+    <testcase classname="AnnoucementBar Shows annoucement text when passed" name="AnnoucementBar Shows annoucement text when passed" time="0.023">
+    </testcase>
+  </testsuite>
+</testsuites>
